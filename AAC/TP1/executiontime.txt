@@ -1,0 +1,12 @@
+1. La fonction clock() retourne une valeur de type clock_t qui représente le temps CPU consommé par le programme depuis le début de son exécution
+- on capture sa valeur avant et apres mySort() pour mesurer le cpytime deloperation mySort()
+
+2- to convert the values of clock() into real world secondswe divide it by CLOCK_PER_SEC
+- oui double est necessaire
+
+3- 
+
+4- the sumber 30 is the minimum sample size required for the sample mean to approximate a normal distribution.
+- Le choix de 30 répétitions représente un compromis entre la fiabilité statistique et le temps nécessaire à l'exécution du programme.
+- 3 répétitions : les résultats sont fortement influencés par les particularités des quelques mesures effectuées. La moyenne peut être peu représentative.
+- 1000 répétitions : on obtient davantage de mesures, mais le temps total d'exécution augmente considérablement, particulièrement pour les grands tableaux et les algorithmes de tri lents.
