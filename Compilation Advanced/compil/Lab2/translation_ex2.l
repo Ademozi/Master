@@ -10,9 +10,8 @@
 [A-Za-z0-9]+  	{ printf("%s", yytext); }
 [ \t\n]+ 	{ printf("%s", yytext); }
 .		{ printf("%s", yytext); }
-[Aa][Tt] 	{ printf("%s", yytext); }
-[Bb][Yy] 	{ printf("%s", yytext); }
-[Ii][Nn] 	{ printf("%s", yytext); }
+
+
 %%
 
 int main() {
